@@ -100,7 +100,7 @@ Run the full test suite with:
 python -m pytest
 ```
 
-> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally. Another useful combo is `pytest --tb=short -q --no-header` to strip the header line as well. If I only want to run tests for a specific directory (e.g., just the sorting algorithms), `pytest sorts/ --tb=short -q` is handy.
+> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally. Another useful combo is `pytest --tb=short -q --no-header` to strip the header line as well. If I only want to run tests for a specific directory (e.g., just the sorting algorithms), `pytest sorts/ --tb=short -q` is handy. For checking coverage, `pytest --cov=. --cov-report=term-missing -q` gives a quick view of which lines aren't covered yet.
 
 Ensure your contribution does not reduce test coverage.
 
@@ -108,9 +108,5 @@ Ensure your contribution does not reduce test coverage.
 
 1. Create a **feature branch** from `master`:
    ```bash
-   git checkout -b feat/my-new-algorithm
-   ```
-2. Commit your changes with a clear message:
-   ```bash
-   git commit -m "feat: add binary search implementation"
-   ```
+   git checkout -b feat/my-n
+```
