@@ -100,6 +100,8 @@ Run the full test suite with:
 python -m pytest
 ```
 
+> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally.
+
 Ensure your contribution does not reduce test coverage.
 
 ## Pull Request Process
@@ -116,11 +118,3 @@ Ensure your contribution does not reduce test coverage.
 4. Fill out the PR template completely.
 5. Ensure all CI checks pass.
 6. A maintainer will review your PR. Address any requested changes promptly.
-
-## Community Guidelines
-
-- Be respectful and inclusive.
-- Follow the [GitHub Community Guidelines](https://docs.github.com/en/site-policy/github-terms/github-community-guidelines).
-- Help review other contributors' PRs when possible.
-
-We appreciate every contribution, big or small. Happy coding! 🎉
