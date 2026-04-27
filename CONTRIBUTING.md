@@ -100,7 +100,7 @@ Run the full test suite with:
 python -m pytest
 ```
 
-> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally.
+> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally. Another useful combo is `pytest --tb=short -q --no-header` to strip the header line as well.
 
 Ensure your contribution does not reduce test coverage.
 
@@ -115,6 +115,4 @@ Ensure your contribution does not reduce test coverage.
    git commit -m "feat: add binary search implementation with tests"
    ```
 3. Push to your fork and open a **Pull Request** against `master`.
-4. Fill out the PR template completely.
-5. Ensure all CI checks pass.
-6. A maintainer will review your PR. Address any requested changes promptly.
+4. F
