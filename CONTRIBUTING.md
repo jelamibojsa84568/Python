@@ -100,7 +100,7 @@ Run the full test suite with:
 python -m pytest
 ```
 
-> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally. Another useful combo is `pytest --tb=short -q --no-header` to strip the header line as well.
+> **Personal note:** I also like running `pytest --tb=short -q` for a cleaner summary output when working locally. Another useful combo is `pytest --tb=short -q --no-header` to strip the header line as well. If I only want to run tests for a specific directory (e.g., just the sorting algorithms), `pytest sorts/ --tb=short -q` is handy.
 
 Ensure your contribution does not reduce test coverage.
 
@@ -112,7 +112,5 @@ Ensure your contribution does not reduce test coverage.
    ```
 2. Commit your changes with a clear message:
    ```bash
-   git commit -m "feat: add binary search implementation with tests"
+   git commit -m "feat: add binary search implementation"
    ```
-3. Push to your fork and open a **Pull Request** against `master`.
-4. F
